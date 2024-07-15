@@ -663,6 +663,7 @@ li {
   text-align: left;
   margin: 0 15px;
   line-height: 20px;
+  font-size: large;
 }
 
 .atouts p {
@@ -736,9 +737,6 @@ section .item p {
   font-size: 14px;
   padding: 10px;
   color: #fff;
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 footer {
   background-color: grey;
