@@ -581,13 +581,14 @@ header {
 header h1 {
   font-size: 110px;
   letter-spacing: 7px;
-  text-shadow: 6px 6px 15px blueviolet;
+  text-shadow: 10px 10px 25px blueviolet;
 }
 
 header h2 {
   font-size: 40px;
   letter-spacing: 3px;
   text-shadow: 6px 6px 15px blueviolet;
+  color: mediumslateblue;
 }
 
 nav {
@@ -595,7 +596,6 @@ nav {
   background-color: transparent;
   text-align: center;
   box-shadow: 1px 1px 5px white;
-  position: sticky;
   top: 0;
 }
 
@@ -617,6 +617,11 @@ nav a {
 nav a:hover {
   color: white;
   box-shadow: 2px 2px 2px blueviolet;
+}
+
+li a img:hover {
+  color: white;
+  box-shadow: 0px 0px 0px 5px blueviolet;
 }
 
 .wrapper {
@@ -716,7 +721,10 @@ progress::-moz-progress-bar {
 .wrapper section {
   font-size: 16px;
 }
-
+.space {
+  display: flex;
+  justify-content: space-around;
+}
 .wrapper section p {
   text-align: justify;
   margin: 10px;
@@ -851,13 +859,8 @@ input[type="submit"] {
   }
 
   .wrapper aside {
-    order: 1;
+    order: 0;
   }
-
-  aside img {
-    display: none;
-  }
-
   .wrapper #flex-container {
     flex-direction: column;
   }
